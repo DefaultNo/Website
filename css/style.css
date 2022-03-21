@@ -2042,11 +2042,12 @@ button.swiper-pagination-bullet {
 .filter-products__name-item:not(:last-child) {
   margin-bottom: 10px;
 }
-
-.filter-products__name-item:hover {
+.filter-products__link {
+  transition: all 0.2s ease 0s;
+}
+.filter-products__link:hover {
   color: #fff;
 }
-
 .servis {
   padding: 101px 0 30px 0;
 }
